@@ -1,24 +1,24 @@
-* greetFriend
-* titleCaseEdit
-* subtractFive
-* cutInHalfAndFloor
+* 00-greetFriend
+* 01-titleCaseEdit
+* 02-subtractFive
+* 03-cutInHalfAndFloor
 
-* countOfAllBooleans
-* countOfAllBooleansAndStrings
-* countOfAllNumbersSmallerThanTarget
-* countOfAllIndexMatchingNumbers
+* 04-countOfAllBooleans
+* 05-countOfAllBooleansAndStrings
+* 06-countOfAllNumbersSmallerThanTarget
+* 07-countOfAllIndexMatchingNumbers
 
-* sumOfAllEvenNumbers
-* sumOfAllOddNumbers
-* sumOfNumsWithinARange
-* sumOfMinimumAndMaximum
+* 08-sumOfAllEvenNumbers
+* 09-sumOfAllOddNumbers
+* 10-sumOfNumsWithinARange
+* 11-sumOfMinimumAndMaximum
 
-* fizzBuzz
-* isPalindrome
-* frequencyCounter
-* countDownSum
+* 12-fizzBuzz
+* 13-isPalindrome
+* 14-frequencyCounter
+* 15-countDownSum
 
-* productOfAnyAmountOfNumbers
-* setUnionOfAnyAmountOfSets
-* pairSum
-* binarySearch
+* 16-productOfAnyAmountOfNumbers
+* 17-setUnionOfAnyAmountOfSets
+* 18-pairSum
+* 19-binarySearch
