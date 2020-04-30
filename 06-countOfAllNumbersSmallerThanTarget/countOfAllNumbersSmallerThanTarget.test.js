@@ -3,7 +3,7 @@
 const countOfAllNumbersSmallerThanTarget = require("./countOfAllNumbersSmallerThanTarget");
 const { expect } = require("chai");
 
-describe("the countOfAllNumbersSmallerThanTarget(arr) function", function() {
+describe("the countOfAllNumbersSmallerThanTarget(nums) function", function() {
 
   it("should return a finite value", function() {
     let submittedSolution = countOfAllNumbersSmallerThanTarget([6,7,8,9,10], 5);
