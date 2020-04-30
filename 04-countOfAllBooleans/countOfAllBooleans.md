@@ -34,8 +34,9 @@ function countOfAllBooleans(num) {
 countOfAllBooleans([true, false, true, false, true, 7]) -----> 5;
 ```
 
-The test suite (`countOfAllBooleans.test.js`) is ultimately designed to verify three core features and expectations:
+The test suite (`countOfAllBooleans.test.js`) is ultimately designed to verify four core features and expectations:
 
 1) The value of your output should be of the `number` (finite) data type 
 2) The value of your output should correspond to the amount of `boolean` values in the input `arr`
 3) In defending against hard-coding, any and all well-formed arguments will lead to the accurate amount of `boolean` values in the input `arr` (**note**: see the respective test suite for more information)
+4) The input `arr` is not mutated

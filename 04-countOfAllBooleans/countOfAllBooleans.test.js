@@ -25,4 +25,10 @@ describe("the countOfAllBooleans(arr) function", function() {
     expect(submittedSolution(auxillaryTestCases[4])).to.equal(0);
   })
 
+  it("should not conduct mutative operations on the input array", function() {
+    let sampleInputArr = [10,20,30,40];
+    countOfAllBooleans(sampleInputArr);
+    expect(sampleInputArr).to.eql([10,20,30,40]);
+  })
+
 })
