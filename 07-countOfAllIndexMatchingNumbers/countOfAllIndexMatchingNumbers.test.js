@@ -12,7 +12,7 @@ describe("the countOfAllIndexMatchingNumbers(nums) function", function() {
 
   it("should return a value that indicates the total amount of numbers that are equivalent to their index value", function() {
     let submittedSolution = countOfAllIndexMatchingNumbers([44,22,33]);
-    expect(submittedSolution, "the output does not reflect an accurate amount of numbers less than target").to.equal(0);
+    expect(submittedSolution, "the output does not reflect an accurate amount of index-matching numbers").to.equal(0);
   })
 
   it("should pass auxillary test cases", function() {
