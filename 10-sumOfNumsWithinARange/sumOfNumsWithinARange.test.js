@@ -6,7 +6,7 @@ const { expect } = require("chai");
 describe("the sumOfNumsWithinARange(nums, start, end) function", function() {
 
   it("should return a finite value", function() {
-    let submittedSolution = sumOfNumsWithinARange([1,2,3]);
+    let submittedSolution = sumOfNumsWithinARange([1,2,3], 2, 10);
     expect(submittedSolution, "the output is not a finite number").to.be.finite;
   })
 
@@ -27,7 +27,7 @@ describe("the sumOfNumsWithinARange(nums, start, end) function", function() {
 
   it("should not conduct mutative operations on the input array", function() {
     let sampleNums = [10,20,30,40,50,60,70,80,90,100,95];
-    sumOfNumsWithinARange(sampleNums);
+    sumOfNumsWithinARange(sampleNums, 20, 60);
     expect(sampleNums).to.eql([10,20,30,40,50,60,70,80,90,100,95]);
   })
 
