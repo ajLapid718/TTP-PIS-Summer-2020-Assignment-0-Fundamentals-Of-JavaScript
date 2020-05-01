@@ -10,7 +10,7 @@ describe("the sumOfAllEvenNumbers(nums) function", function() {
     expect(submittedSolution, "the output is not a finite number").to.be.finite;
   })
 
-  it("should return a value that indicates the total amount of numbers that even", function() {
+  it("should return a value that indicates the total amount of numbers that are even", function() {
     let submittedSolution = sumOfAllEvenNumbers([7,8,9,10]);
     expect(submittedSolution, "the output does not reflect an accurate amount of numbers that are even").to.equal(2);
   })
