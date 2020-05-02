@@ -3,6 +3,9 @@
 const greetFriend = require("./greetFriend");
 const { expect } = require("chai");
 const faker = require("faker");
+const moment = require("moment");
+
+console.log(moment().format('MMMM Do YYYY, h:mm:ss a'));
 
 describe("the greetFriend(name) function", function() {
 
