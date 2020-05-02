@@ -46,6 +46,6 @@ fizzBuzz(1, 20) -----> [1, 2, "Fizz", 4, "Buzz", "Fizz", 7, 8, "Fizz", "Buzz", 1
 The test suite (`fizzBuzz.test.js`) is ultimately designed to verify four core features and expectations:
 
 1) The value of your output should be an `array`
-2) The size of your output array is determined by and should be equivalent to the the difference between `end` and `start`, offset by one
+2) The size of your output array is determined by and should be equivalent to the difference between `end` and `start`, offset by one
 3) The output array will contain numbers and/or strings that adhere to the four conditions of fizzBuzz stated in the prompt
 4) In defending against hard-coding, any and all well-formed arguments will lead to sufficient coverage of core feature/expectation #3 (**note**: see the respective test suite for more information)
