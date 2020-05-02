@@ -36,7 +36,7 @@ isPalindrome("door") -----> false;
 
 The test suite (`isPalindrome.test.js`) is ultimately designed to verify four core features and expectations:
 
-1) The function should be a `boolean` value
+1) The function return a `boolean` value
 2) The function should return `true` if the input `word` is a palindrome
 3) The function should return `false` if the input `word` is not a palindrome
 4) In defending against hard-coding, any and all well-formed arguments will lead to sufficient coverage of core features/expectations #2 and #3 (**note**: see the respective test suite for more information)
