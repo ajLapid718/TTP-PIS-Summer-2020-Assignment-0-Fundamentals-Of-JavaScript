@@ -1,6 +1,6 @@
 # 16-productOfAnyAmountOfNumbers
 
-For this exercise (`productOfAnyAmountOfNumbers.js`), you are tasked to write out solution code for a function titled `productOfAnyAmountOfNumbers(...args)`. This function is capable of accepting and will take in any amount of arguments. The business logic you provide should allow for calculating the product of any and all numbers passed into the function.
+For this exercise (`productOfAnyAmountOfNumbers.js`), you are tasked to write out solution code for a function titled `productOfAnyAmountOfNumbers(...args)`. This function is capable of accepting and will take in any amount of arguments. Each argument passed into this function will be of the `number` data type. The business logic you provide should allow for calculating the product of any and all numbers passed into the function.
 
 Please review `rest parameters` in order to better understand the "..." preceding the `args` parameter, which allows us to represent an indefinite number of arguments as an array. Alternatively and optionally, reviewing the `arguments` keyword, which gives us access to the arguments passed into a function, might also provide another perspective.
 
