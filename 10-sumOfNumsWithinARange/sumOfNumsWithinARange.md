@@ -1,6 +1,6 @@
 # 10-sumOfNumsWithinARange
 
-For this exercise (`sumOfNumsWithinARange.js`), you are tasked to write out solution code for a function titled `sumOfNumsWithinARange(nums)`. This function will take in three arguments. The first argument: an array of numbers titled `nums`. The second argument: a number titled `start` which indicates the floor of the range. The third argument: a number titled `end` which indicates the ceiling of the range. The business logic you provide should allow for tallying up all of the values in `nums` that fall between `start` and `end` (include values that are equivalent to `start` and include values that are equivalent to `end`).
+For this exercise (`sumOfNumsWithinARange.js`), you are tasked to write out solution code for a function titled `sumOfNumsWithinARange(nums, start, end)`. This function will take in three arguments. The first argument: an array of numbers titled `nums`. The second argument: a number titled `start` which indicates the floor of the range. The third argument: a number titled `end` which indicates the ceiling of the range. The business logic you provide should allow for tallying up all of the values in `nums` that fall between `start` and `end` (include values that are equivalent to `start` and include values that are equivalent to `end`).
 
 _In other words_:
 
@@ -11,7 +11,7 @@ THEN: We output 3
 ```
 
 ```js
-function sumOfNumsWithinARange(nums) {
+function sumOfNumsWithinARange(nums, start, end) {
   // Insert code here;
 }
 
@@ -27,7 +27,7 @@ THEN: We output 5
 ```
 
 ```js
-function sumOfNumsWithinARange(nums) {
+function sumOfNumsWithinARange(nums, start, end) {
   // Insert code here;
 }
 

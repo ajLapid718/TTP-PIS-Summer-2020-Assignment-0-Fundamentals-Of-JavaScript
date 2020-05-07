@@ -5,7 +5,7 @@ For this exercise (`isPalindrome.js`), you are tasked to write out solution code
 _In other words_:
 
 ```
-GIVEN: "racecar" as an argument
+GIVEN: "racecar" as `word`
 WHEN: Invoking isPalindrome("racecar")
 THEN: We output true
 ```
@@ -21,7 +21,7 @@ isPalindrome("racecar") -----> true;
 _An additional example_:
 
 ```
-GIVEN: "door"
+GIVEN: "door" as `word`
 WHEN: Invoking isPalindrome("door")
 THEN: We output false
 ```

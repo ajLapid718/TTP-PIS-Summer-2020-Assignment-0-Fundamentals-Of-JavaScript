@@ -5,7 +5,7 @@ For this exercise (`countOfAllBooleansAndStrings.js`), you are tasked to write o
 _In other words_:
 
 ```
-GIVEN: [true, "true", false, "false", 9] as an argument
+GIVEN: [true, "true", false, "false", 9] as `arr`
 WHEN: Invoking countOfAllBooleansAndStrings([true, "true", false, "false", 9])
 THEN: We output 4
 ```
@@ -21,7 +21,7 @@ countOfAllBooleansAndStrings([true, "true", false, "false", 9]) -----> 4;
 _An additional example_:
 
 ```
-GIVEN: ["hey", "there", "hello", "there", "world", false] as an argument
+GIVEN: ["hey", "there", "hello", "there", "world", false] as `arr`
 WHEN: Invoking countOfAllBooleansAndStrings(["hey", "there", "hello", "there", "world", false])
 THEN: We output 6
 ```

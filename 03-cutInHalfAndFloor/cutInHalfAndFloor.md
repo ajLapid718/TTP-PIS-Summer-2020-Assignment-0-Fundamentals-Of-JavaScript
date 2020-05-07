@@ -5,7 +5,7 @@ For this exercise (`cutInHalfAndFloor.js`), you are tasked to write out solution
 _In other words_:
 
 ```
-GIVEN: 22 as an argument
+GIVEN: 22 as `num`
 WHEN: Invoking cutInHalfAndFloor(22)
 THEN: We output 11
 ```
@@ -21,7 +21,7 @@ cutInHalfAndFloor(22) -----> 11;
 _An additional example_:
 
 ```
-GIVEN: 99 as an argument
+GIVEN: 99 as `num`
 WHEN: Invoking cutInHalfAndFloor(99)
 THEN: We output 49
 ```

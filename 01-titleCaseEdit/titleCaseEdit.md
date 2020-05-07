@@ -5,7 +5,7 @@ For this exercise (`titleCaseEdit.js`), you are tasked to write out solution cod
 _In other words_:
 
 ```
-GIVEN: "the cow jumped over the moon" as an argument
+GIVEN: "the cow jumped over the moon" as `title`
 WHEN: Invoking titleCaseEdit("the cow jumped over the moon")
 THEN: We output "The Cow Jumped Over The Moon"
 ```
@@ -21,7 +21,7 @@ titleCaseEdit("the cow jumped over the moon") -----> "The Cow Jumped Over The Mo
 _An additional example_:
 
 ```
-GIVEN: "the Boy who Cried wolf" as an argument
+GIVEN: "the Boy who Cried wolf" as `title`
 WHEN: Invoking titleCaseEdit("the Boy who Cried wolf")
 THEN: We output "The Boy Who Cried Wolf"
 ```

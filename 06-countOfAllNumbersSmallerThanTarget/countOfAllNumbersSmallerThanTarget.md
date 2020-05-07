@@ -5,7 +5,7 @@ For this exercise (`countOfAllNumbersSmallerThanTarget.js`), you are tasked to w
 _In other words_:
 
 ```
-GIVEN: [1,2,3,4,5] as `arr` and 9 as `target`
+GIVEN: [1,2,3,4,5] as `nums` and 9 as `target`
 WHEN: Invoking countOfAllNumbersSmallerThanTarget([1,2,3,4,5], 9)
 THEN: We output 5
 ```

@@ -5,13 +5,13 @@ For this exercise (`countOfAllBooleans.js`), you are tasked to write out solutio
 _In other words_:
 
 ```
-GIVEN: ["hello", "world", 3, "nice", 99, Infinity, -Infinity, true, true, true, false] as an argument
+GIVEN: ["hello", "world", 3, "nice", 99, Infinity, -Infinity, true, true, true, false] as `arr`
 WHEN: Invoking countOfAllBooleans(["hello", "world", 3, "nice", 99, Infinity, -Infinity, true, true, true, false])
 THEN: We output 4
 ```
 
 ```js
-function countOfAllBooleans(num) {
+function countOfAllBooleans(arr) {
   // Insert code here;
 }
 
@@ -21,13 +21,13 @@ countOfAllBooleans(["hello", "world", 3, "nice", 99, Infinity, -Infinity, true, 
 _An additional example_:
 
 ```
-GIVEN: [true, false, true, false, true, 7] as an argument
+GIVEN: [true, false, true, false, true, 7] as `arr`
 WHEN: Invoking countOfAllBooleans([true, false, true, false, true, 7])
 THEN: We output 5
 ```
 
 ```js
-function countOfAllBooleans(num) {
+function countOfAllBooleans(arr) {
   // Insert code here;
 }
 

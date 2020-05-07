@@ -5,7 +5,7 @@ For this exercise (`frequencyCounter.js`), you are tasked to write out solution 
 _In other words_:
 
 ```
-GIVEN: "apple" as an argument
+GIVEN: "apple" as `word`
 WHEN: Invoking frequencyCounter("apple")
 THEN: We output { "a": 1, "p": 2, "l": 1, "e": 1 }
 ```
@@ -21,7 +21,7 @@ frequencyCounter("apple") -----> { "a": 1, "p": 2, "l": 1, "e": 1 };
 _An additional example_:
 
 ```
-GIVEN: "computer" as an argument
+GIVEN: "computer" as `word`
 WHEN: Invoking frequencyCounter("computer")
 THEN: We output { "c": 1, "o": 1, "m": 1, "p": 1, "u": 1, "t": 1, "e": 1, "r": 1 }
 ```

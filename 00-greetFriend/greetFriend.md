@@ -5,7 +5,7 @@ For this exercise (`greetFriend.js`), you are tasked to write out solution code 
 _In other words_:
 
 ```
-GIVEN: "Albert" as an argument
+GIVEN: "Albert" as `name`
 WHEN: Invoking greetFriend("Albert")
 THEN: We output "Hello, Albert!"
 ```

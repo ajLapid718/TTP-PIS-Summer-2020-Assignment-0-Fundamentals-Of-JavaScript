@@ -5,7 +5,7 @@ For this exercise (`subtractFive.js`), you are tasked to write out solution code
 _In other words_:
 
 ```
-GIVEN: 15 as an argument
+GIVEN: 15 as `num`
 WHEN: Invoking subtractFive(15)
 THEN: We output 10
 ```
@@ -21,7 +21,7 @@ subtractFive(15) -----> 10;
 _An additional example_:
 
 ```
-GIVEN: 23 as an argument
+GIVEN: 23 as `num`
 WHEN: Invoking subtractFive(23)
 THEN: We output 18
 ```

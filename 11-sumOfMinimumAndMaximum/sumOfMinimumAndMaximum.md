@@ -5,7 +5,7 @@ For this exercise (`sumOfMinimumAndMaximum.js`), you are tasked to write out sol
 _In other words_:
 
 ```
-GIVEN: [2,2] as an argument
+GIVEN: [2,2] as `nums`
 WHEN: Invoking sumOfMinimumAndMaximum([2,2])
 THEN: We output 4
 ```
@@ -21,7 +21,7 @@ sumOfMinimumAndMaximum([2,2]) -----> 4;
 _An additional example_:
 
 ```
-GIVEN: [2,4,5,6,23]
+GIVEN: [2,4,5,6,23] as `nums`
 WHEN: Invoking sumOfMinimumAndMaximum([2,4,5,6,23])
 THEN: We output 25
 ```

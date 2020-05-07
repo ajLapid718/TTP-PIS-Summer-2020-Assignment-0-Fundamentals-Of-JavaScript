@@ -5,7 +5,7 @@ For this exercise (`sumOfAllOddNumbers.js`), you are tasked to write out solutio
 _In other words_:
 
 ```
-GIVEN: [0,1,2,3,4,5,6,7] as an argument
+GIVEN: [0,1,2,3,4,5,6,7] as `nums`
 WHEN: Invoking sumOfAllOddNumbers([0,1,2,3,4,5,6,7])
 THEN: We output 4
 ```
@@ -21,7 +21,7 @@ sumOfAllOddNumbers([0,1,2,3,4,5,6,7]) -----> 4;
 _An additional example_:
 
 ```
-GIVEN: [2,4,6,7,8,9,10] as an argument
+GIVEN: [2,4,6,7,8,9,10] as `nums`
 WHEN: Invoking sumOfAllOddNumbers([2,4,6,7,8,9,10])
 THEN: We output 2
 ```

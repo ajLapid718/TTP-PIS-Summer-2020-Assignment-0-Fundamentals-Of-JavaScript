@@ -7,7 +7,7 @@ Note: This is technically not a standalone function like the previous exercises 
 _In other words_:
 
 ```
-GIVEN: 5 as an argument
+GIVEN: 5 as `num`
 WHEN: Invoking countDownSum(5)
 THEN: We output 15
 ```
@@ -26,7 +26,7 @@ studentSolution.countDownSum(5) -----> 15;
 _An additional example_:
 
 ```
-GIVEN: 10 as an argument
+GIVEN: 10 as `num`
 WHEN: Invoking countDownSum(10)
 THEN: We output 55
 ```

@@ -5,7 +5,7 @@ For this exercise (`sumOfAllEvenNumbers.js`), you are tasked to write out soluti
 _In other words_:
 
 ```
-GIVEN: [0,1,2,3,4,5] as an argument
+GIVEN: [0,1,2,3,4,5] as `nums`
 WHEN: Invoking sumOfAllEvenNumbers([0,1,2,3,4,5])
 THEN: We output 3
 ```
@@ -21,7 +21,7 @@ sumOfAllEvenNumbers([0,1,2,3,4,5]) -----> 3;
 _An additional example_:
 
 ```
-GIVEN: [2,4,6,7,8,9,10] as an argument
+GIVEN: [2,4,6,7,8,9,10] as `nums`
 WHEN: Invoking sumOfAllEvenNumbers([2,4,6,7,8,9,10])
 THEN: We output 5
 ```

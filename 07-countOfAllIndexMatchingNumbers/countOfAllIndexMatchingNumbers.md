@@ -5,7 +5,7 @@ For this exercise (`countOfAllIndexMatchingNumbers.js`), you are tasked to write
 _In other words_:
 
 ```
-GIVEN: [0,1,2,3,4] as an argument
+GIVEN: [0,1,2,3,4] as `nums`
 WHEN: Invoking countOfAllIndexMatchingNumbers([0,1,2,3,4])
 THEN: We output 5
 ```
@@ -21,7 +21,7 @@ countOfAllIndexMatchingNumbers([0,1,2,3,4]) -----> 5;
 _An additional example_:
 
 ```
-GIVEN: [0,2,3,4,4,5,77] as an argument
+GIVEN: [0,2,3,4,4,5,77] as `nums`
 WHEN: Invoking countOfAllIndexMatchingNumbers([0,2,3,4,4,5,77])
 THEN: We output 2
 ```
